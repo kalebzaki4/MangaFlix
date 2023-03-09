@@ -2,7 +2,7 @@
 
 > Status do projeto: Em desenvolvimento.
 
-[![site](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://kalebzaki4.github.io/AnimeFlix/)
+[![site](https://kalebzaki4.github.io/Animeflix/)
 
 ![AnimeFlix GitHub stats](https://github-readme-stats.vercel.app/api?username=kalebzaki4&show_icons=true&theme=dracula)
 
