@@ -2,7 +2,7 @@
 
 > Status do projeto: Em desenvolvimento.
 
-[![site](https://kalebzaki4.github.io/Animeflix/)
+[![site]()
 
 ![AnimeFlix GitHub stats](https://github-readme-stats.vercel.app/api?username=kalebzaki4&show_icons=true&theme=dracula)
 
