@@ -1,9 +1,7 @@
 ### Olá! Este é meu maior projeto desde então! O Animeflix! ❤️
 
 > Status do projeto: Em desenvolvimento.
-
-[![site]()
-
+> 
 ![AnimeFlix GitHub stats](https://github-readme-stats.vercel.app/api?username=kalebzaki4&show_icons=true&theme=dracula)
 
 ## Tecnologias que são usadas no AnimeFlix:
