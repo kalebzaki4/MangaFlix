@@ -2,7 +2,6 @@
 
 > Status do projeto: Em desenvolvimento.
 > 
-![AnimeFlix GitHub stats](https://github-readme-stats.vercel.app/api?username=kalebzaki4&show_icons=true&theme=dracula)
 
 ## Tecnologias que são usadas no AnimeFlix:
 
