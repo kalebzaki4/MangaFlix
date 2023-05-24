@@ -1,4 +1,4 @@
-### Olá! Este é meu maior projeto desde então! O Animeflix! ❤️
+### Olá! Este é meu maior projeto desde então! O MangaFlix! ❤️
 
 > Status do projeto: Em desenvolvimento.
 > 
