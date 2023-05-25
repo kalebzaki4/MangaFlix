@@ -2,171 +2,213 @@
   "animes": [
     {
       "id": 1,
-      "titulo": "KanColle: Itsuka Ano Umi de 2",
-      "descricao": "2022",
-      "url": "KanColle.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/KanColle-Itsuka-Ano-Umi-de-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "Demon Slayer: Kimets...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Demon-Slayer-Kimetsu-no-Yaiba.html",
+      "imagem": "https://animefire.net/img/animes/kimetsu-no-yaiba-katanakaji-no-sato-hen-large.webp?v=1"
     },
     {
       "id": 2,
-      "titulo": "Fukigen na Mononokean 2",
-      "descricao": "2019",
-      "url": "Fukigen-na-Mononokean-2.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Fukigen-na-Mononokean-2-Todos-os-Episodios-anitube.jpg"
+      "titulo": "Attack on Titan",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Attack-on-Titan.html",
+      "imagem": "https://animefire.net/img/animes/shingeki-no-kyojin-the-final-season-kanketsu-hen.jpg?v=1"
     },
     {
       "id": 3,
-      "titulo": "Arknights: Reimei Zensou",
-      "descricao": "2022",
-      "url": "Arknights-Reimei-Zensou.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Arknights-Reimei-Zensou-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "My Hero Academia",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "My-Hero-Academia.html",
+      "imagem": "https://animefire.net/img/animes/boku-no-hero-academia-6th-season.webp?v=1"
     },
     {
       "id": 4,
-      "titulo": "Cool Doji Danshi",
-      "descricao": "2001",
-      "url": "Cool-Doji-Danshi.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Cool-Doji-Danshi-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "Jujutsu Kaisen",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Jujutsu-Kaisen.html",
+      "imagem": "https://animefire.net/img/animes/jujutsu-kaisen-2nd-season.webp?v=1"
     },
     {
       "id": 5,
-      "titulo": "Futoku no Guild",
-      "descricao": "2022",
-      "url": "Futoku-no-Guild.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Futoku-no-Guild-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "One Piece",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "One-Piece.html",
+      "imagem": "https://mangabr-p.b-cdn.net/638f57f232c43427e616c05dd552ae1d/cover.jpg.webp"
     },
     {
       "id": 6,
-      "titulo": "Lian Qi Lianle 300 Nian",
-      "descricao": "2022",
-      "url": "Lian-Qi-Lianle-300-Nian.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Lian-Qi-Lianle-300-Nian-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "Noruto",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Naruto.html",
+      "imagem": "https://mangabr-p.b-cdn.net/87d159a948065dce1f509013ecbc2560/cover.jpg.webp"
     },
     {
       "id": 7,
-      "titulo": "Yowamushi Pedal: Limit Break",
-      "descricao": "2022",
-      "url": "Yowamushi-Pedal-Limit-Break.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Yowamushi-Pedal-Limit-Break-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "Death Note",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Death-Note.html",
+      "imagem": "https://animefire.net/img/animes/death-note-large.webp?v=1"
     },
     {
       "id": 8,
-      "titulo": "Bleach: Sennen Kessen-hen",
-      "descricao": "2022",
-      "url": "Bleach-Sennen-Kessen-hen",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Bleach-Sennen-Kessen-hen-Todos-os-Episodios-Anitube.jpg"
+      "titulo": "Fullmetal Alchemis...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Fullmetal-Alchemist-Brotherhood.html",
+      "imagem": "https://animefire.net/img/animes/fullmetal-alchemist.webp?v=1"
     },
     {
-      "titulo": "Peter Grill to Kenja no Jikan 2",
-      "descricao": "2022",
-      "url": "Peter-Grill-to-Kenja-no-Jikan-2.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Peter-Grill-to-Kenja-no-Jikan-Super-Extra-Todos-os-Episodios-Anitube.jpg",
-      "id": 9
+      "id": 9,
+      "titulo": "De...Mugen Train Arc",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Demon-Slayer-Kimetsu-no-Yaiba-Mugen-Train-Arc.html",
+      "imagem": "https://animefire.net/img/animes/kimetsu-no-yaiba-movie-mugen-ressha-hen-large.webp?v=1"
     },
     {
-      "titulo": "Berserk: Ougon Jidai-hen",
-      "descricao": "2022",
-      "url": "Berserk-Ougon-Jidai-hen.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Berserk-Ougon-Jidai-hen-Memorial-Edition-Todos-os-Episodios-Anitube.jpg",
-      "id": 10
+      "id": 10,
+      "titulo": "One Punch Man",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "One-Punch-Man.html",
+      "imagem": "https://animefire.net/img/animes/one-punch-man.webp?v=1"
     },
     {
       "titulo": "Blue Lock",
-      "descricao": "2022",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Blue-Lock.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Blue-Lock-Todos-os-Episodios-Anitube.jpg",
+      "imagem": "https://animefire.net/img/animes/blue-lock.webp?v=1",
       "id": 11
     },
+      {
+        "id": 12,
+        "titulo": "Black Clover",
+        "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+        "url": "Black-Clover.html",
+        "imagem": "https://animefire.net/img/animes/black-clover.webp?v=1"
+      },
+      {
+        "id": 13,
+        "titulo": "Tokyo Revengers",
+        "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+        "url": "Tokyo-Revengers.html",
+        "imagem": "https://animefire.net/img/animes/tokyo-revengers.webp?v=1"
+      },
+      {
+        "id": 14,
+        "titulo": "Haikyuu!!",
+        "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+        "url": "Haikyuu.html",
+        "imagem": "https://animefire.net/img/animes/haikyuu-to-the-top-2nd-season.webp?v=1"
+      },
+      {
+        "id": 15,
+        "titulo": "Dragon Ball Super",
+        "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+        "url": "Dragon-Ball-Super.html",
+        "imagem": "https://animefire.net/img/animes/dragon-ball-super.webp?v=1"
+      },
+      {
+        "id": 16,
+        "titulo": "Spy x Family",
+        "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+        "url": "Boku-no-Pico.html",
+        "imagem": "https://dn1.imgstatic.club/uploads/s/spy-x-family/spy-x-family.jpg"
+      },      
     {
-      "titulo": "Mairimashita! Iruma-kun 3",
-      "descricao": "2022",
-      "url": "Mairimashita!-Iruma-kun-3.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Mairimashita-Iruma-kun-3-Anitube.jpg",
-      "id": 12
-    },
-    {
-      "titulo": "Seiken Densetsu: Legend of Mana",
-      "descricao": "2022",
-      "url": "Seiken-Densetsu-Legend-of-Mana.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Seiken-Densetsu-Legend-of-Mana-The-Teardrop-Crystal-Todos-os-Episodios-Anitube.jpg",
-      "id": 13
-    },
-    {
-      "titulo": "Akiba Maid Sensou",
-      "descricao": "2022",
-      "url": "Akiba-Maid-Sensou.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Akiba-Maid-Sensou-Todos-os-Episodios-Anitube.jpg",
-      "id": 14
-    },
-    {
-      "titulo": "Muv-Luv Alternative 2nd Season",
-      "descricao": "2022",
-      "url": "Muv-Luv-Alternative-2nd-Season.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Muv-Luv-Alternative-2-Todos-os-Episodios-Anitube.jpg",
-      "id": 15
-    },
-    {
-      "titulo": "Kage no Jitsuryokusha ni Naritakute!",
-      "descricao": "2022",
-      "url": "Kage-no-Jitsuryokusha-ni-Naritakute!.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Kage-no-Jitsuryokusha-ni-Naritakute-Todos-os-Episodios-Anitube.jpg",
-      "id": 16
-    },
-    {
-      "titulo": "Mairimashita! Iruma kun 2",
-      "descricao": "2021",
+      "titulo": "Kaiju No.8",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Mairimashita!-Iruma-kun-2.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Bleach-dub.jpg",
+      "imagem": "https://dn1.imgstatic.club/uploads/k/kaiju-no8/kaiju-no8.jpg",
       "id": 17
     },
     {
-      "titulo": "Shakunetsu Kabaddi",
-      "descricao": "2021",
+      "titulo": "Vagabond",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Shakunetsu-Kabaddi.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Shakunetsu-Kabaddi-Todos-os-Episódios-AniTube.jpg",
+      "imagem": "https://dn1.imgstatic.club/uploads/v/vagabond/vagabond.jpg",
       "id": 18
     },
     {
-      "titulo": "Majutsushi Orphen Hagure Tabi: Kimluck-hen",
-      "descricao": "2021",
+      "titulo": "Chainsaw Man",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Majutsushi-Orphen-Hagure-Tabi-Kimluck-hen.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Majutsushi-Orphen-Hagure-Tabi-Kimluck-hen-Todos-os-Episódios-AniTube.jpg",
+      "imagem": "https://cdn.plaquiz.xyz/uploads/c/chainsaw-man/chainsaw-man.jpg",
       "id": 19
     },
     {
-      "titulo": "The God of High School",
-      "descricao": "2020",
+      "titulo": "Shuumatsu no Wal...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "The-God-of-High-School.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/The-God-of-High-School-Todos-os-Episódios-AniTube.jpg",
+      "imagem": "https://dn1.imgstatic.club/uploads/s/shuumatsu-no-walkure/shuumatsu-no-walkure.jpg",
       "id": 20
     },
     {
-      "titulo": "Ken En Ken: Aoki Kagayaki",
-      "descricao": "2018",
+      "titulo": "Berserk",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Ken-En-Ken-Aoki-Kagayaki.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Ken-En-Ken-Aoki-Kagayaki-Todos-os-Episódios.jpg",
+      "imagem": "https://cdn.plaquiz.xyz/uploads/b/berserk/berserk.jpg",
       "id": 21
     },
     {
-      "titulo": "Tenka Hyakken: Meiji-kan e Youkoso!",
-      "descricao": "2019",
+      "titulo": "Tensei shitara Slim...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Tenka-Hyakken-Meiji-kan-e-Youkoso!.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Tenka-Hyakken-Meiji-kan-e-Youkoso-Todos-os-Episódios.jpg",
+      "imagem": "https://dn1.imgstatic.club/uploads/t/tensei-shitara-slime-datta-ken/tensei-shitara-slime-datta-ken.jpg",
       "id": 22
     },
     {
-      "titulo": "Ninin ga Shinobuden",
-      "descricao": "2004",
+      "titulo": "Ijiranaide, Nagator...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Ninin-ga-Shinobuden.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Ninin-ga-Shinobuden-–-Todos-os-Episódios.jpg",
+      "imagem": "https://dn1.imgstatic.club/uploads/i/ijiranaide-nagatoro-san/ijiranaide-nagatoro-san.jpg",
       "id": 23
     },
     {
-      "titulo": "Mugen no Juunin Immortal",
-      "descricao": "2019",
+      "titulo": "Mushoku Tensei: Ise...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
       "url": "Mugen-no-Juunin-Immortal.html",
-      "imagem": "https://www.anitube.site/wp-content/uploads/Mugen-no-Juunin-Immortal-Todos-os-Episódios-Online.jpg",
+      "imagem": "https://dn1.imgstatic.club/uploads/m/mushoku-tensei-isekai-ittara-honki-dasu/mushoku-tensei-isekai-ittara-honki-dasu.jpg",
       "id": 24
+    },
+    {
+      "id": 25,
+      "titulo": "Boku no Hero...6",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Boku-no-Hero-Academia-6.html",
+      "imagem": "https://animefire.net/img/animes/boku-no-hero-academia-6th-season-large.webp?v=1"
+    },
+    {
+      "id": 26,
+      "titulo": "Attack on...Chronicle",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Attack-on-Titan-Chronicle.html",
+      "imagem": "https://animefire.net/img/animes/shingeki-no-kyojin-chronicle.webp"
+    },
+    {
+      "id": 27,
+      "titulo": "Komi-san wa, Com...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Demon-Slayer-Kimetsu-no-Yaiba-Mugen-Train.html",
+      "imagem": "https://dn1.imgstatic.club/uploads/k/komi-san-wa-community-shou-desu/komi-san-wa-community-shou-desu.jpg"
+    },
+    {
+      "id": 28,
+      "titulo": "Boruto: Naruto Next...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Bungou-Stray-Dogs.html",
+      "imagem": "https://cdn.plaquiz.xyz/uploads/b/boruto-naruto-next-generations/boruto-naruto-next-generations.jpg"
+    },
+    {
+      "id": 29,
+      "titulo": "Solo Leveling",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Demon-Slayer-Kimetsu-no-Yaiba-Mugen-Train.html",
+      "imagem": "https://dn1.imgstatic.club/uploads/s/solo-leveling/solo-leveling.jpg"
+    },
+    {
+      "id": 30,
+      "titulo": "Bleach: Sennen Kess...",
+      "descricao": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+      "url": "Bungou-Stray-Dogs.html",
+      "imagem": "https://animefire.net/img/animes/bleach-sennen-kessen-hen-large.webp?v=1"
     }
   ]
 }
