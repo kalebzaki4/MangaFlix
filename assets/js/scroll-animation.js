@@ -1,6 +1,6 @@
 const scrollAnima = document.querySelector('[data-anima="scroll"]');
 
-const metadeWindow = window.innerHeight * 1.5
+const metadeWindow = window.innerHeight * 3.0
 
 function animarScroll() {
     const topoItem = scrollAnima.getBoundingClientRect().top;
@@ -13,7 +13,6 @@ function animarScroll() {
         scrollAnima.classList.remove('show-button');
     };
 };
-
 
 
 window.addEventListener('scroll', animarScroll);
