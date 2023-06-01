@@ -22,7 +22,7 @@ O MangaFlix é um projeto dedicado a fornecer uma plataforma online para a leitu
 
 O MangaFlix é um projeto de código aberto e incentivamos contribuições da comunidade. Se você deseja colaborar, sinta-se à vontade para abrir issues, enviar pull requests ou sugerir novos recursos e melhorias. Juntos, podemos tornar o MangaFlix ainda melhor!
 
-O acesso ao MangaFlix está disponível na parte direita do repositório. Basta acessar o [link](https://seu-repositorio.github.io/mangaflix) e começar a explorar os mangás disponíveis. Divirta-se!
+O acesso ao MangaFlix está disponível na parte direita do repositório. Basta acessar o [link]([https://seu-repositorio.github.io/mangaflix](https://kalebzaki4.github.io/MangaFlix/)) e começar a explorar os mangás disponíveis. Divirta-se!
 
 ## Licença
 
