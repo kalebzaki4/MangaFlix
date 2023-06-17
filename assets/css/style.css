@@ -1021,7 +1021,24 @@ body.dark .search-field input {
     }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px) {
+
+    .button {
+        left: 60px;
+    }
+
+    .card{
+        position: relative;
+        width: 1200px;
+        height: 90px;
+        background: var(--card);
+        border-radius: 8px;
+        left: 20px;
+    }
+
+    .card2{
+        left: 20px;
+    }
 
     .logo {
         width: 10px;
