@@ -1,39 +1,70 @@
-# MangaFlix - Site de Mangás Online
+# Getting Started with Create React App
 
-**Bem-vindo ao repositório do MangaFlix!** Este é um site de mangás de código aberto, disponível gratuitamente para uso e contribuição através do GitHub Pages.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Sobre o MangaFlix
+## Available Scripts
 
-O MangaFlix é um projeto dedicado a fornecer uma plataforma online para a leitura de mangás. Com uma interface intuitiva e amigável, os usuários podem explorar uma vasta coleção de mangás de diversos gêneros, como ação, aventura, comédia, drama, fantasia e muito mais.
+In the project directory, you can run:
 
-## Recursos do MangaFlix
+### `npm start`
 
-- **Ampla seleção de mangás:** O MangaFlix oferece uma extensa biblioteca de mangás para os usuários desfrutarem. Com uma variedade de títulos populares e clássicos, os fãs de mangá encontrarão uma grande diversidade de histórias para explorar.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Navegação fácil e intuitiva:** A interface do MangaFlix foi projetada para ser fácil de usar e proporcionar uma experiência de navegação fluida. Os usuários podem encontrar facilmente seus mangás favoritos, pesquisar por gênero ou autor, e navegar por capítulos e volumes.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Leitura online e offline:** O MangaFlix permite aos usuários ler mangás diretamente no site, sem a necessidade de downloads adicionais. Além disso, é possível salvar mangás para leitura offline, garantindo que os usuários possam desfrutar de seus mangás favoritos a qualquer momento e em qualquer lugar.
+### `npm test`
 
-- **Sistema de favoritos e histórico:** Os usuários podem marcar mangás como favoritos para acessá-los facilmente posteriormente. Além disso, o MangaFlix mantém um histórico de leitura, permitindo que os usuários retornem rapidamente ao ponto onde pararam em suas leituras.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Compatível com dispositivos móveis:** O MangaFlix foi desenvolvido com responsividade em mente, garantindo uma experiência otimizada tanto em computadores quanto em dispositivos móveis. Os usuários podem desfrutar da leitura de mangás em seus smartphones ou tablets de forma conveniente.
+### `npm run build`
 
-## Contribuição
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-O MangaFlix é um projeto de código aberto e incentivamos contribuições da comunidade. Se você deseja colaborar, sinta-se à vontade para abrir issues, enviar pull requests ou sugerir novos recursos e melhorias. Juntos, podemos tornar o MangaFlix ainda melhor!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-O acesso ao MangaFlix está disponível na parte direita do repositório. Basta acessar o [link]([https://seu-repositorio.github.io/mangaflix](https://kalebzaki4.github.io/MangaFlix/)) e começar a explorar os mangás disponíveis. Divirta-se!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Licença
+### `npm run eject`
 
-Este projeto é licenciado sob a licença [MIT](https://opensource.org/licenses/MIT). Você é livre para usar, modificar e distribuir o MangaFlix de acordo com os termos da licença.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Esperamos que você aproveite o MangaFlix e tenha uma ótima experiência de leitura de mangás online!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Tecnologias que são usadas no MangaFlix:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-<div style="display: inline_block"><br/>
-  <img align="center" alt="" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-  <img align="center" alt="" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-   <img align="center" alt="" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-</div>
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
