@@ -1,0 +1,41 @@
+nav .nav-bar {
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--nav-color);
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen{
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .nav-bar .logo a{
+    position: relative;
+    bottom: -14px;
+    left: -100px;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.nav-bar .nav-links{
+    left: -100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .darkLight-searchBox{
+    display: flex;  
+    align-items: center;
+}
