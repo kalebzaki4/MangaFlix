@@ -6,23 +6,37 @@ section{
     min-height: 100vh;
     width: 100%;
     
-    background: url('/public/background6.jpg')no-repeat;
+    background: url('https://images5.alphacoders.com/131/1318408.png')no-repeat;
     background-position: center;
     background-size: cover;
 }
-.form-box{
+
+.img {
+    position: absolute;
+}
+
+.imagem{
+    position: relative;
+    bottom: 30vh;
+}
+
+.gradient-border {
+    border-image: linear-gradient(to right bottom, #2e008c, #ce00d7);
+    border-image-slice: 1; /* Isso ajusta o tamanho do gradiente na borda */
+    border-width: 2px; /* Defina a largura da borda */
+    border-style: solid; /* Defina o estilo da borda */
     position: relative;
     width: 400px;
     height: 450px;
     background: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
     border-radius: 20px;
     backdrop-filter: blur(15px);
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
 
-}
 h2{
     font-size: 2em;
     color: #fff;
