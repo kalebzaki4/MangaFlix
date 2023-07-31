@@ -4,9 +4,15 @@ import Login from './components/Login';
 
 function App() {
 
+  const [colaboradores, setColaboradores] = useState([])
+
+  const aoNovoColaboradorAdicionado = (colaborador) => {
+    console.log(colaborador)
+  }
+
   return (
     <div className="App">
-      <Login  />
+      <Login  aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
     </div>
   );
 }
