@@ -10,7 +10,10 @@ const Login = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log('form submetido =>', email, senha)
+        props.aoColaboradorCadastrado({
+            email,
+            senha
+        })
     }
 
     return (
