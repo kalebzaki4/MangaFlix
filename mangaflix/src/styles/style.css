@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: white;
+}
+
+header {
+  background-color: #1e1e1e;
+  max-width: 1980px;
+  margin: auto;
+}
+header .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .flex .btn-login {
+  position: relative;
+  padding-right: 20vh;
+}
+header .flex .btn-login button {
+  background-color: #a400ad;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header .flex .btn-login button:hover {
+  background-color: #fff;
+  color: #a400ad;
+  transition: 0.6s;
+}
+header .flex nav {
+  list-style: none;
+  padding: 0;
+}
+header .flex nav button {
+  position: relative;
+  background-color: #4f4f4f;
+  top: -10px;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: #2e2e2e;
+  color: #fff;
+  font-size: x-large;
+  right: 8vh;
+  bottom: 1vh;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+}
+header .flex nav button:hover {
+  color: #a400ad;
+  transition: 0.3s;
+}
+header .flex nav .Logo {
+  font-size: xx-large;
+  padding-bottom: 0;
+}
+header .flex nav li {
+  display: inline;
+}
+header .flex nav li a {
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+}
+header .flex nav li a:hover {
+  color: #a400ad;
+}
+header .flex nav li input {
+  position: relative;
+  width: 50vh;
+  height: 3vh;
+  padding-bottom: 10px;
+  bottom: 1.5vh;
+  border-radius: 10px 0px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #2e2e2e;
+  border: 0px;
+  color: #fff;
+  border: none;
+  padding: 7px 16px 8px;
+  right: 8vh;
+  z-index: 2;
+}
+header .flex img {
+  width: 30%;
+  padding-bottom: 0px;
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
