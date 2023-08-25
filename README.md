@@ -16,7 +16,7 @@ O Mangaflix oferece diversos recursos incríveis para melhorar sua experiência 
 
 4. **Classificação e Avaliações**: Compartilhe sua opinião sobre os mangás, classifique-os e veja as avaliações de outros usuários para descobrir novas leituras emocionantes.
 
-5. **Busca Avançada**: Encontre facilmente os mangás que procura com nossa busca avançada e filtros de gênero, autor, lançamento e muito mais.
+5. **Busca Avançada**: Encontre facilmente os mangás que procura com nossa busca avançada e filtros de gênero, autor, lançamento e muito mais
 
 ## Como Contribuir 🤝❤️
 
