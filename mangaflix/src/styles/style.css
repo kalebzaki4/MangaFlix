@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,16 @@ a {
   text-decoration: none;
   transition: 0.3s;
   color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a400ad;
+  border-radius: 50px;
 }
 
 header {
@@ -47,8 +58,8 @@ header .flex nav button {
   background-color: #4f4f4f;
   top: -10px;
   padding: 6px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: #2e2e2e;
   color: #fff;
   font-size: x-large;
@@ -100,4 +111,73 @@ header .flex img {
   width: 30%;
   padding-bottom: 0px;
   position: relative;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 60px);
+  /* Subtrai a altura do menu (60px) da altura total da tela */
+}
+.slider ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+.slider ul li {
+  min-width: 100%;
+  position: relative;
+}
+.slider ul li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Garante que a imagem preencha todo o espaço disponível */
+  filter: brightness(30%);
+}
+.slider ul li .text-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.slider ul li .text-overlay h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.slider ul li .text-overlay p {
+  font-size: 24px;
+}
+.slider ul li:hover .text-overlay {
+  opacity: 1;
+}
+.slider .carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #4f4f4f;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+  border-radius: 50px;
+}
+.slider .carousel-button.prev-button {
+  left: 20px;
+}
+.slider .carousel-button.next-button {
+  right: 20px;
+}
+.slider .carousel-button:hover {
+  background-color: #a400ad;
 }/*# sourceMappingURL=style.css.map */
