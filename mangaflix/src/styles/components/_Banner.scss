@@ -1,0 +1,88 @@
+@import '../abstract/variaveis';
+
+$largura-lateral: 300px;
+$cor-lateral-fundo: $cor-de-fundo;
+$cor-lateral-texto: $cor-de-texto;
+$cor-lateral-toggle: $cor-de-texto-hover;
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 60px);
+
+    /* Subtrai a altura do menu (60px) da altura total da tela */
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        transition: transform 1s ease-in-out;
+
+        li {
+            min-width: 100%;
+            position: relative; // Para permitir sobreposição
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* Garante que a imagem preencha todo o espaço disponível */
+                filter: brightness(30%); // Diminui o brilho das imagens
+            }
+
+            .text-overlay {
+                position: absolute;
+                bottom: 20px; // Ajuste a distância a partir da parte inferior conforme desejado
+                left: 20px; // Ajuste a distância a partir da esquerda conforme desejado
+                color: $cor-de-texto; // Usando a variável de cor
+                text-align: left; // Alinhamento à esquerda
+                padding: 20px; // Adicione um padding considerável
+                background: rgba(0, 0, 0, 0.5); // Fundo semi-transparente para o texto
+
+                h2 {
+                    font-size: 32px; // Tamanho maior do título
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 24px; // Tamanho maior da descrição
+                }
+            }
+
+            &:hover .text-overlay {
+                opacity: 1; // Torna o texto visível ao passar o mouse sobre a imagem
+            }
+        }
+    }
+
+    .carousel-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: $cor-de-fundo-clara; // Usando a variável de cor
+        color: $cor-de-texto; // Usando a variável de cor
+        font-size: 18px; // Tamanho da fonte do botão
+        border: none;
+        padding: 10px 20px; // Espaçamento interno do botão
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        z-index: 2; // Coloca o botão sobre as imagens
+        border-radius: 50px;
+
+        &.prev-button {
+            left: 20px; // Posição do botão de retrocesso
+        }
+
+        &.next-button {
+            right: 20px; // Posição do botão de avanço
+        }
+
+        &:hover {
+            background-color: $cor-de-texto-hover; // Usando a variável de cor
+        }
+    }
+
+}
+
+
