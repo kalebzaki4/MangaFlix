@@ -9,6 +9,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        box-shadow: 0px 7px 28px 5px rgba(0,0,0,0.75);
 
         .btn-login {
             position: relative;
@@ -18,13 +19,16 @@ header {
                 color: $cor-de-texto;
                 border: none;
                 padding: 15px;
-                border-radius: 10px;
+                border-radius: 5px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bold;
+                letter-spacing: 2px;
+
                 &:hover {
                     background-color: $cor-de-texto ;
                     color: $cor-de-texto-hover;
                     transition: 0.6s;
+                    transform: scale(1.1);
                 }
             }
         }
@@ -45,8 +49,9 @@ header {
                 font-size: x-large;
                 right: 8vh;
                 bottom: 1vh;
-                border-radius: 0px 20px 20px 0px;  
+                border-radius: 0px 20px 20px 0px;
                 cursor: pointer;
+
                 &:hover {
                     color: $cor-de-texto-hover;
                     transition: 0.3s;
