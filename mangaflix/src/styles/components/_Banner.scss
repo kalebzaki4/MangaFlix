@@ -33,12 +33,13 @@ $cor-lateral-toggle: $cor-de-texto-hover;
 
             .text-overlay {
                 position: absolute;
-                bottom: 20px; // Ajuste a distância a partir da parte inferior conforme desejado
+                bottom: 50px; // Ajuste a distância a partir da parte inferior conforme desejado
                 left: 20px; // Ajuste a distância a partir da esquerda conforme desejado
                 color: $cor-de-texto; // Usando a variável de cor
                 text-align: left; // Alinhamento à esquerda
-                padding: 20px; // Adicione um padding considerável
-                background: rgba(0, 0, 0, 0.5); // Fundo semi-transparente para o texto
+                padding: 20px; // Adicionei um padding considerável
+                border-radius: 30px;
+                background-color: rgba(0, 0, 0, 0.543);
 
                 h2 {
                     font-size: 32px; // Tamanho maior do título
