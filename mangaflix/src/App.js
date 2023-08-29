@@ -4,8 +4,8 @@ import './styles/style.css'
 
 function App() {
   return (
-  <><Menu />
-    <Banner />
+    <><Menu />
+      <Banner />
     </>
   );
 }
