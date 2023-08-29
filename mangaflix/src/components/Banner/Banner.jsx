@@ -8,17 +8,27 @@ export default function Banner() {
     {
       src: 'https://dw9to29mmj727.cloudfront.net/promo/2016/5265-SeriesHeaders_OP_2000x800_wm.jpg',
       title: 'One Piece',
-      description: 'Aventuras emocionantes no Grande Mar!',
+      description: 'Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o próximo Rei dos Piratas.',
     },
     {
       src: 'https://dw9to29mmj727.cloudfront.net/promo/2016/6226-SeriesHeaders_DN_2000x800.jpg',
       title: 'Death Note',
-      description: 'O caderno da morte e um jogo de inteligência.',
+      description: 'Light Yagami, um estudante do ensino médio que descobre um caderno sobrenatural chamado Death Note',
     },
     {
       src: 'https://dw9to29mmj727.cloudfront.net/promo/2016/6225-SeriesHeaders_NARSHP_2000x800.jpg',
-      title: 'Anime',
-      description: 'Naruto',
+      title: 'Naruto Shippuden',
+      description: 'Naruto Uzumaki, um jovem órfão habitante da Aldeia da Folha que sonha em se tornar o quinto Hokage',
+    },
+    {
+      src: 'https://e1.pxfuel.com/desktop-wallpaper/503/799/desktop-wallpaper-demon-slayer-kimetsu-no-yaiba-series-demon-slayer-banner.jpg',
+      title: 'Demon Slayer',
+      description: 'A trama mostra um jovem rapaz chamado Tanjiro que trabalha para ajudar sua família composta por uma mãe e vários irmãos.',
+    },
+    {
+      src: 'https://e1.pxfuel.com/desktop-wallpaper/503/799/desktop-wallpaper-demon-slayer-kimetsu-no-yaiba-series-demon-slayer-banner.jpg',
+      title: 'Naruto Shippuden',
+      description: 'A trama mostra um jovem rapaz chamado Tanjiro que trabalha para ajudar sua família composta por uma mãe e vários irmãos.',
     },
   ];
 
@@ -40,9 +50,6 @@ export default function Banner() {
 
   return (
     <div className="slider">
-      <button className="carousel-button prev-button" onClick={prevSlide}>
-        &#9664;
-      </button>
       <ul style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
         {slides.map((slide, index) => (
           <li key={index}>
@@ -54,9 +61,6 @@ export default function Banner() {
           </li>
         ))}
       </ul>
-      <button className="carousel-button next-button" onClick={nextSlide}>
-        &#9654;
-      </button>
     </div>
   );
 }
