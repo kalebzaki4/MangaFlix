@@ -9,13 +9,14 @@ export default function Menu() {
                 <div className='flex'>
                     <nav>
                         <ul>
-                            <li><a className='Logo' href="#"><AiOutlineBars /></a></li>
                             <li><a href="#"><img src={Logo} alt="logo-Mangaflix" title='Voltar ao inicio' /></a></li>
                             <li>
-                                <input type="text" id="pesquisa" placeholder='pesquisar' />
+                                <a href=""><p>Procurar</p></a>
+                            </li>
+                            <li>
+                                <input type="search" id="pesquisa" placeholder='pesquisar' />
                                 <button><AiOutlineSearch /></button>
                             </li>
-
                         </ul>
                     </nav>
                     <div className="btn-login">
