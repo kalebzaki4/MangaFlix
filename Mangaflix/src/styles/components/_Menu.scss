@@ -1,0 +1,128 @@
+@import '../abstract/variaveis';
+
+header {
+    background-color: $cor-de-fundo;
+    max-width: 1980px;
+    margin: auto;
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 7px 28px 5px rgba(0, 0, 0, 0.75);
+
+        .btn-login {
+            position: relative;
+            right: 5vh;
+
+            button {
+                background-color: $cor-de-texto-hover;
+                color: $cor-de-texto;
+                border: none;
+                padding: 15px;
+                border-radius: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                letter-spacing: 2px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $cor-de-texto ;
+                    color: $cor-de-texto-hover;
+                    transition: 0.6s;
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        nav {
+            list-style: none;
+            padding: 0;
+
+            button {
+                position: relative;
+                background-color: $cor-de-fundo-clara;
+                top: -10px;
+                padding: 6px;
+                padding-left: 10px;
+                padding-right: 16px;
+                border: #2e2e2e;
+                color: $cor-de-texto;
+                font-size: x-large;
+                right: -30vh;
+                bottom: 1vh;
+                border-radius: 0px 20px 20px 0px;
+                cursor: pointer;
+
+                &:hover {
+                    color: $cor-de-texto-hover;
+                    transition: 0.3s;
+                }
+            }
+
+            .Logo {
+                font-size: xx-large;
+                padding-bottom: 0;
+            }
+
+            li {
+                display: inline;
+
+                p {
+                    position: absolute;
+                    padding: 0;
+                    top: 33px;
+                    left: 455px;
+                    font-size: large;
+                }
+
+                a {
+                    color: $cor-de-texto;
+                    padding: 20px;
+                    display: inline-block;
+                    text-decoration: none;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    &:hover {
+                        color: $cor-de-texto-hover;
+                    }
+                }
+
+                input {
+                    position: relative;
+                    width: 50vh;
+                    height: 43px;
+                    padding-bottom: 10px;
+                    bottom: 14px;
+                    border-radius: 10px 0px 0px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    background-color: $cor-de-fundo-clara2;
+                    border: none;
+                    color: $cor-de-texto;
+                    border: none;
+                    padding: 7px 16px 8px;
+                    right: -30vh;
+                    z-index: 2;
+                }
+
+                input[type="search"]::-webkit-search-decoration,
+                input[type="search"]::-webkit-search-cancel-button,
+                input[type="search"]::-webkit-search-results-button,
+                input[type="search"]::-webkit-search-results-decoration {
+                    display: none;
+                }
+
+            }
+        }
+
+        img {
+            width: 35%;
+            padding-bottom: 0px;
+            position: relative;
+            left: 100px;
+        }
+    }
+
+}

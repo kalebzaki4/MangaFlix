@@ -1,0 +1,200 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a400ad;
+  border-radius: 50px;
+}
+
+header {
+  background-color: #1e1e1e;
+  max-width: 1980px;
+  margin: auto;
+}
+header .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 7px 28px 5px rgba(0, 0, 0, 0.75);
+}
+header .flex .btn-login {
+  position: relative;
+  right: 5vh;
+}
+header .flex .btn-login button {
+  background-color: #a400ad;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+header .flex .btn-login button:hover {
+  background-color: #fff;
+  color: #a400ad;
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+header .flex nav {
+  list-style: none;
+  padding: 0;
+}
+header .flex nav button {
+  position: relative;
+  background-color: #4f4f4f;
+  top: -10px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 16px;
+  border: #2e2e2e;
+  color: #fff;
+  font-size: x-large;
+  right: -30vh;
+  bottom: 1vh;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+}
+header .flex nav button:hover {
+  color: #a400ad;
+  transition: 0.3s;
+}
+header .flex nav .Logo {
+  font-size: xx-large;
+  padding-bottom: 0;
+}
+header .flex nav li {
+  display: inline;
+}
+header .flex nav li p {
+  position: absolute;
+  padding: 0;
+  top: 33px;
+  left: 455px;
+  font-size: large;
+}
+header .flex nav li a {
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+}
+header .flex nav li a:hover {
+  color: #a400ad;
+}
+header .flex nav li input {
+  position: relative;
+  width: 50vh;
+  height: 43px;
+  padding-bottom: 10px;
+  bottom: 14px;
+  border-radius: 10px 0px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #2e2e2e;
+  border: none;
+  color: #fff;
+  border: none;
+  padding: 7px 16px 8px;
+  right: -30vh;
+  z-index: 2;
+}
+header .flex nav li input[type=search]::-webkit-search-decoration,
+header .flex nav li input[type=search]::-webkit-search-cancel-button,
+header .flex nav li input[type=search]::-webkit-search-results-button,
+header .flex nav li input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}
+header .flex img {
+  width: 35%;
+  padding-bottom: 0px;
+  position: relative;
+  left: 100px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+.slider ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+.slider ul li {
+  min-width: 100%;
+  position: relative;
+}
+.slider ul li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(30%);
+}
+.slider ul li .text-overlay {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.362);
+  font-size: x-large;
+}
+.slider ul li .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4f4f4f;
+  /* Cor de fundo do botão */
+  color: #fff;
+  /* Cor do ícone */
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  visibility: hidden;
+  /* Inicialmente invisível */
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+.slider ul li .play-button:hover {
+  background-color: #a400ad;
+  /* Cor de fundo do botão ao passar o mouse */
+}
+.slider ul li .play-button svg {
+  font-size: 60px;
+}
+.slider ul li:hover .play-button {
+  visibility: visible;
+  /* Torna o botão visível ao passar o mouse */
+  opacity: 1;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */
