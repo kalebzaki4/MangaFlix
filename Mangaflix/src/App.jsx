@@ -1,8 +1,15 @@
-import Menu from './components/menu/menu.jsx';
+import { useState } from 'react'
+import Menu from './components/Menu'
+import styled from "styled-components";
+
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <Menu />
+    <>
+    <Menu/>
+    </>
   )
 }
 
