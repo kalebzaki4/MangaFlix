@@ -1,9 +1,12 @@
-import Menu from './components/menu/menu.jsx';
+import { useState } from 'react'
+import Menu from './components/Menu'
 
 function App() {
   return (
-    <Menu />
+    <>
+      <Menu/>
+    </>
   )
 }
 
-export default App
+export default App;
