@@ -1,97 +1,65 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineBars, AiOutlineSearch } from "react-icons/ai";
-import Logo from "../../assets/images/mangaflix.png";
-import EstilosGlobais from "../EstilosGlobais/index";
 
-const Header = styled.header`
-  background-color: #1f1f1f;
-  color: white;
-  padding: 10px 0;
-`;
-
-const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
-const LogoContainer = styled.div`
-  display: flex;
-  align-items: center;
-  img {
-    width: 250px; /* Tamanho do logo */
-    margin-right: 10px;
-    position: relative;
-  }
-`;
-
-const Nav = styled.nav`
-  display: flex;
-  align-items: center;
+// Estilos para o menu nav
+const StyledNav = styled.nav`
   ul {
     list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    display: flex;
   }
+
   li {
     margin-right: 20px;
+    position: relative;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
     a {
       text-decoration: none;
-      color: white;
-      font-family: 'GandhiSansRegular', Arial, sans-serif; /* Usando a fonte personalizada */
-      font-size: 16px; /* Tamanho da fonte */
-      display: flex;
-      align-items: center;
-      p {
-        margin-left: 5px;
+      color: #333;
+      font-weight: bold;
+
+      &:hover {
+        color: #007bff;
       }
     }
-  }
-  input[type="search"] {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid white;
-    color: white;
-    padding: 5px;
-    font-family: 'GandhiSansRegular', Arial, sans-serif; /* Usando a fonte personalizada */
-    font-size: 16px; /* Tamanho da fonte */
-  }
-  button {
-    background-color: #a200ff; /* Cor de destaque do botão */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'GandhiSansRegular', Arial, sans-serif; /* Usando a fonte personalizada */
-    font-size: 16px; /* Tamanho da fonte */
-    &:hover {
-      background-color: #a200ff; /* Cor de destaque ao passar o mouse */
-    }
-  }
-`;
 
-const BtnLogin = styled.div`
-  .btn-login {
-    a {
-      text-decoration: none;
-      button {
-        background-color: #a200ff; /* Cor de destaque do botão */
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        font-family: 'GandhiSansRegular', Arial, sans-serif; /* Usando a fonte personalizada */
-        font-size: 16px; /* Tamanho da fonte */
-        &:hover {
-          background-color: #a200ff; /* Cor de destaque ao passar o mouse */
+    ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+
+      li {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-weight: normal;
+
+        &:last-child {
+          margin-bottom: 0;
         }
+
+        a {
+          color: #333;
+
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        display: block;
       }
     }
   }
@@ -99,38 +67,47 @@ const BtnLogin = styled.div`
 
 const Menu = () => {
   return (
-    <>
-      <EstilosGlobais /> {/* Inclua os estilos globais aqui */}
-      <Header>
-        <Container>
-          <LogoContainer>
-            <img src={Logo} alt="logo-Mangaflix" title="Voltar ao inicio" />
-          </LogoContainer>
-          <Nav>
-            <ul>
-              <li>
-                <a href="#">
-                  <p>Procurar</p>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <input type="search" id="pesquisa" placeholder="Pesquisar" />
-                  <button>
-                    <AiOutlineSearch />
-                  </button>
-                </a>
-              </li>
-            </ul>
-          </Nav>
-          <BtnLogin>
-            <a href="#">
-              <button>LOGIN</button>
-            </a>
-          </BtnLogin>
-        </Container>
-      </Header>
-    </>
+    <StyledNav>
+      <ul className="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Mangas</a>
+          <ul>
+            <li>
+              <a href="#">Lançamento</a>
+            </li>
+            <li>
+              <a href="#">Famosos</a>
+            </li>
+            <li>
+              <a href="#">Legendados</a>
+            </li>
+            <li>
+              <a href="#">Dublados</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Categorias</a>
+          <ul>
+            <li>
+              <a href="#">Ação</a>
+            </li>
+            <li>
+              <a href="#">Suspense</a>
+            </li>
+            <li>
+              <a href="#">Aventura</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Sobre</a>
+        </li>
+      </ul>
+    </StyledNav>
   );
 };
 
